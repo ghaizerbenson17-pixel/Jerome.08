@@ -25,3 +25,8 @@ themeBtn.addEventListener("click", () => {
         localStorage.setItem("theme", next);
     } catch (e) {}
 });
+const btn = document.getElementById("themeBtn");
+btn.addEventListener("click", () => {
+  document.body.classList.toggle("light");
+  btn.textContent = document.body.classList.contains("light") ? "Dark Mode" : "Light Mode";
+});
