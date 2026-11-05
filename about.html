@@ -6,7 +6,7 @@
     <title>About | Jerome Dulay</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="about-page">
 
 <header>
     <nav class="navbar">
@@ -25,34 +25,79 @@
     </nav>
 </header>
 
-<main>
-    <section class="page-section">
-        <h2>About Me</h2>
+<main class="about-main">
+    <h2 class="about-title">About Me</h2>
 
-        <p>
-            Hello! My name is Jerome James Villar Dulay.
-            I am a Bachelor of Science in Information Technology
-            student who enjoys learning programming and
-            developing websites.
-        </p>
+    <div class="about-grid">
 
-        <div class="cards">
-            <div class="card">
-                <h3>Web Development</h3>
-                <p>Learning how to create modern websites.</p>
-            </div>
+        <!-- Intro -->
+        <div class="panel intro">
+            <h3>Hello!</h3>
+            <p>
+                I'm Jerome James Villar Dulay, a Bachelor of Science in
+                Information Technology student and aspiring web developer.
+                I enjoy building websites from a blank file, fixing bugs,
+                and watching my code come to life in the browser.
+            </p>
+        </div>
 
-            <div class="card">
-                <h3>Programming</h3>
-                <p>Improving my coding and problem-solving skills.</p>
-            </div>
+        <!-- Quick facts -->
+        <div class="panel">
+            <h3>Quick Facts</h3>
+            <ul class="info-list">
+                <li><strong>Course:</strong> BS Information Technology</li>
+                <li><strong>School:</strong> [University Of The Cordilleras]</li>
+                <li><strong>Location:</strong> [Baguio City, PH]</li>
+                <li><strong>Focus:</strong> Web Development</li>
+            </ul>
+        </div>
 
-            <div class="card">
-                <h3>Creativity</h3>
-                <p>Turning ideas into digital projects.</p>
+        <!-- Skills -->
+        <div class="panel">
+            <h3>Skills</h3>
+            <div class="skills">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">Git &amp; GitHub</span>
+                <span class="skill-tag">Problem Solving</span>
             </div>
         </div>
-    </section>
+
+        <!-- What I do -->
+        <div class="panel">
+            <h3>Web Development</h3>
+            <p>Learning how to create modern websites.</p>
+        </div>
+
+        <div class="panel">
+            <h3>Programming</h3>
+            <p>Improving my coding and problem-solving skills.</p>
+        </div>
+
+        <div class="panel">
+            <h3>Creativity</h3>
+            <p>Turning ideas into digital projects.</p>
+        </div>
+
+        <!-- Goals -->
+        <div class="panel wide">
+            <h3>My Goals</h3>
+            <p>
+                To become a skilled web developer who builds clean, useful
+                websites: strengthen my JavaScript, learn a front-end
+                framework, and finish more portfolio projects.
+            </p>
+        </div>
+
+        <!-- CTA -->
+        <div class="panel cta">
+            <h3>Let's Connect</h3>
+            <a href="contact.html" class="btn">Contact Me</a>
+        </div>
+
+    </div>
 </main>
 
 <footer>
