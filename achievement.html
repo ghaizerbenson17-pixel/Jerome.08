@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achievements | Jerome Dulay</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
 <header>
     <nav class="navbar">
-        <div class="logo">JEROME'S PORTFOLIO</div>
+        <a href="index.html" class="logo">JEROME'S PORTFOLIO</a>
 
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="achievements.html" class="active">Achievements</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="family.html">Family</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="achievements.html" class="active" aria-current="page">Achievements</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
 
-        <button id="themeBtn">Light Mode</button>
+        <button id="themeBtn" type="button" aria-label="Toggle light or dark mode">Light Mode</button>
     </nav>
 </header>
 
@@ -30,29 +30,27 @@
         <h2>My Achievements</h2>
 
         <div class="cards">
-            <div class="card">
-                <h3>Achievement 1</h3>
-                <p>Philippine Football Federation 3rd Place 2026.</p>
-            </div>
+            <article class="card">
+                <h3>3rd Place</h3>
+                <p>Philippine Football Federation, 2026</p>
+            </article>
 
-            <div class="card">
-                <h3>Achievement 2</h3>
-                <p>Batang Pinoy Gensan 5th Place 2026.</p>
-            </div>
+            <article class="card">
+                <h3>5th Place</h3>
+                <p>Batang Pinoy, General Santos, 2026</p>
+            </article>
 
-            <div class="card">
-                <h3>Achievement 3</h3>
-                <p>Palarong Pambansa Ilocos Norte Quarter Finalist 2025.</p>
-            </div>
+            <article class="card">
+                <h3>Quarterfinalist</h3>
+                <p>Palarong Pambansa, Ilocos Norte, 2025</p>
+            </article>
         </div>
     </section>
 </main>
 
 <footer>
-    <p>© 2026 Jerome Dulay | Personal Portfolio</p>
+    <p>&copy; 2026 Jerome Dulay | Personal Portfolio</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
